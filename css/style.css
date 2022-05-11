@@ -1,0 +1,107 @@
+@font-face {
+    font-family: BrandonGrotesqueBlack;
+    src: url("font/BrandonGrotesque-Black.otf") format("opentype");
+}
+.logo-font {
+    font-family: BrandonGrotesqueBlack !important;
+    font-weight: 100 !important;
+}
+
+.card-inner.card-vertical  {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.entry-text-content {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    overflow-wrap: normal;
+}
+.card-wrapper .card .card-inner {
+    min-height: 255px !important;
+    height: auto !important;
+}
+.card-wrapper .card .card-inner .entry-content p {
+    font-size: 14px;
+    margin: 0px !important;
+}
+.article-image {
+    padding: 0px !important;
+    margin: 0px !important;
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 1999px) {
+    .card-inner.card-vertical  {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        height: 265px !important;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .card-wrapper .card .card-inner {
+        min-height: 250px !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .card-inner.card-vertical  {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        height: 265px !important;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .card-wrapper .card .card-inner {
+        min-height: 265px !important;
+        height: auto !important;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .entry-text-content {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        overflow-wrap: break-word;
+        padding-bottom: 5px !important;
+    }
+    .card-wrapper .card .card-inner {
+        min-height: 275px !important;
+        height: auto !important;
+    }
+}
+@media screen and (max-width: 770px) {
+    .entry-text-content {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+    .card-inner.card-vertical  {
+        padding-bottom: 5px !important;
+        min-height: 260px !important;
+        height: auto !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .navbar .navbar-brand{
+        font-size: 4vw;
+    }
+    .card-inner.card-vertical  {
+        min-height: 250px !important;
+        margin: 15px !important;
+    }
+    .entry-text-content {
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+    }
+}
+@media screen and (max-width: 350px) {
+    .entry-text-content {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+}
